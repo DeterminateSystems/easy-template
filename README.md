@@ -10,13 +10,13 @@ Working examples in this repo:
 
 ```shell
 # JSON
-easy-template ./examples/README.md.in ./examples/data.json
+easy-template ./examples/README.template.md ./examples/data.json
 
 # YAML
-easy-template ./examples/README.md.in ./examples/data.yaml
+easy-template ./examples/README.template.md ./examples/data.yaml
 
 # TOML
-easy-template ./examples/README.md.in ./examples/data.toml
+easy-template ./examples/README.template.md ./examples/data.toml
 ```
 
 [handlebars]: https://handlebarsjs.com

@@ -6,8 +6,8 @@ The message:
 
 The table:
 
-Fruit | Description
-:-----|:-----------
+| Fruit | Description |
+| :---- | :---------- |
 {{#each fruits}}
-{{this.name}} | {{this.description}}
+| {{this.name}} | {{this.description}} |
 {{/each}}
