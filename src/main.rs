@@ -31,7 +31,7 @@ fn main() {
         "json" => serde_json::from_str(&data_file).expect("Failed to parse JSON"),
         "yaml" | "yml" => serde_yaml::from_str(&data_file).expect("Failed to parse YAML"),
         "toml" => toml::from_str(&data_file).expect("Failed to parse TOML"),
-        ext @ _ => panic!("File extension {} not recognied", ext),
+        ext => panic!("File extension {} not recognied", ext),
     };
 
     let mut handlebars = Handlebars::new();
