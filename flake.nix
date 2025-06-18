@@ -44,15 +44,9 @@
           packages = with pkgs; [
             rustToolchain
             cargo-edit
+            cargo-watch
             bacon
           ];
-
-          # Set any environment variables for your dev shell
-          env = { };
-
-          # Add any shell logic you want executed any time the environment is activated
-          shellHook = ''
-          '';
         };
       });
 
