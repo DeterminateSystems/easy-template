@@ -1,3 +1,13 @@
 {
-  "message": "Hello world"
+  "message": "Hello world",
+  "fruits": [
+    {
+      "name": "Kiwi",
+      "description": "Definitely very tart"
+    },
+    {
+      "name": "Banana",
+      "description": "Very nutritious but not great as a Runts or Laffy Taffy flavor"
+    }
+  ]
 }
